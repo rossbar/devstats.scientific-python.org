@@ -53,7 +53,7 @@ def send_query(query, cursor=None):
     # TODO: Unhack this
     # WARNING: This hack relies on specific structure of issues query
     if cursor is not None:
-        cursor_ind = query.find('OPEN') + len('OPEN')
+        cursor_ind = query.find('first:100') + len('first:100')
         query = query[:cursor_ind] + ' after:"{}"'.format(cursor) + query[cursor_ind:]
     # Build request payload
     payload = {'query' : ''.join(query.split('\n'))}
@@ -81,8 +81,8 @@ def parse_single_issue_query(data):
     """
     Parse the raw json returned by get_open_numpy_issues_with_crossrefs.
     """
-    total_num_issues = data['data']['repository']['issues']['totalCount']
-    data = data['data']['repository']['issues']['edges']
+    total_num_issues = data['data']['repository']['pullRequests']['totalCount']
+    data = data['data']['repository']['pullRequests']['edges']
     last_cursor = data[-1]['cursor']
     return data, last_cursor, total_num_issues
 
@@ -280,6 +280,8 @@ def cli():
 
 
 if __name__ == "__main__":
-    grabber = GithubIssueGrabber('query_examples/max_issue_data.gql')
+    grabber = GithubIssueGrabber(
+        'query_examples/pr_data_query.gql', repo_owner="networkx", repo_name="networkx",
+    )
     grabber.get()
-    grabber.dump("_data/issues.json")
+    grabber.dump("_data/prs.json")
