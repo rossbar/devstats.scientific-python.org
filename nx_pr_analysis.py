@@ -9,15 +9,27 @@ with open(fname, 'r') as fh:
     
 merged_prs = [d for d in data if d['node']['state'] == 'MERGED']
 merge_dates = np.array([r['node']['mergedAt'] for r in merged_prs], dtype=np.datetime64)
+binsize = np.timedelta64(14, 'D')
+date_bins = np.arange(merge_dates[0], merge_dates[-1], binsize)
+h, be = np.histogram(merge_dates, date_bins)
+bc = be[:-1] + binsize / 2
+smoothing_interval = 8  # in units of bin-width
+
 fig, ax = plt.subplots()
-h, date_bedges, _ = ax.hist(mdates.datestr2num(merge_dates), bins=(8*12+7));
-ax.xaxis.set_major_locator(mdates.YearLocator())
-ax.xaxis.set_major_formatter(mdates.DateFormatter('%m-%y'))
+ax.bar(bc, h, width=binsize, label="Raw")
+ax.plot(
+    bc,
+    np.convolve(h, np.ones(smoothing_interval), 'same') / smoothing_interval,
+    label=f"{binsize * smoothing_interval} moving average",
+    color='tab:orange',
+    linewidth=2.0,
+)
 fig.autofmt_xdate()
 
 ax.set_title('Merged PRs over time')
 ax.set_xlabel('Time')
-ax.set_ylabel('# Merged PRs / 15 days')
+ax.set_ylabel('# Merged PRs / 2 week interval')
+ax.legend()
 
 plt.show()
 
