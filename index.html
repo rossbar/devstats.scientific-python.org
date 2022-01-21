@@ -1,67 +1,99 @@
 
-
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
-    <title>Analyzing GitHub Issues &#8212; static-issues-summary  documentation</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-    <link href="_static/css/index.css" rel="stylesheet">
-    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Scientific Python Devstats &#8212; devstats.poc  documentation</title>
+    
+    <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+  
+    
+    <link rel="stylesheet"
+      href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+    <link rel="preload" as="font" type="font/woff2" crossorigin
+      href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+    <link rel="preload" as="font" type="font/woff2" crossorigin
+      href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+  
+    
+      
+  
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/pydata-sphinx-theme.css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
-    <link rel="stylesheet" type="text/css" href="_static/jupyter-sphinx.css" />
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    
+    <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+  
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
     <script src="_static/togglebutton.js"></script>
-    <script src="_static/mystnb.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Counting cross-references" href="content/edge_counting.html" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="docsearch:language" content="en">
+    <link rel="next" title="NumPy Monthly Report" href="numpy_issues.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
     
-    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main">
-<div class="container-xl">
+    <div class="container-fluid" id="banner"></div>
 
     
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
 
-    <div id="navbar-menu" class="col-lg-9 collapse navbar-collapse">
-      <ul id="navbar-main-elements" class="navbar-nav mr-auto">
-        
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="content/edge_counting.html">Counting cross-references</a>
-        </li>
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="content/basic_graph_analysis.html">Basic graph analysis</a>
-        </li>
-        
-        
-      </ul>
+  <div id="navbar-start">
+    
+    
+<a class="navbar-brand" href="#">
+<p class="title">devstats.poc</p>
+</a>
 
+    
+  </div>
 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
       
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="numpy_issues.html">
+  NumPy Monthly Report
+ </a>
+</li>
 
-      <ul class="navbar-nav">
-        
-        
-      </ul>
+    
+</ul>
+      </div>
+      
     </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+      </ul>
+      </div>
+      
+    </div>
+  </div>
 </div>
     </nav>
     
@@ -69,479 +101,100 @@
     <div class="container-xl">
       <div class="row">
           
-          <div class="col-12 col-md-3 bd-sidebar">
-
-<form class="bd-search d-flex align-items-center" action="search.html" method="get">
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar">
+              <div class="sidebar-start-items"><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
-</form>
-
-
-<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
   <div class="bd-toc-item active">
-  
-
-  <ul class="nav bd-sidenav">
-      
-      
-      
-      
-      
-    </ul>
-
+    
+  </div>
 </nav>
-          </div>
+              </div>
+              <div class="sidebar-end-items">
+              </div>
+            </div>
+            
           
 
           
           <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
               
-<div class="tocsection onthispage pt-5 pb-3">
-    <i class="fas fa-list"></i> On this page
-</div>
+              <div class="toc-item">
+                
 
 <nav id="bd-toc-nav">
-    <ul class="nav section-nav flex-column">
     
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#summary" class="nav-link">Summary</a><ul class="nav section-nav flex-column">
-                
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#most-cross-referenced-issues" class="nav-link">Most cross-referenced issues</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#most-cross-referenced-issues-intra-repository" class="nav-link">Most cross-referenced issues (intra-repository)</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#most-central-issues" class="nav-link">Most central issues</a>
-        </li>
-    
-            </ul>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#details" class="nav-link">Details</a>
-        </li>
-    
-    </ul>
 </nav>
-
-
+              </div>
               
+              <div class="toc-item">
+                
+              </div>
+              
+            
           </div>
           
 
+          
+          
+            
           
           <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
               
               <div>
                 
-  <div class="section" id="analyzing-github-issues">
-<h1>Analyzing GitHub Issues<a class="headerlink" href="#analyzing-github-issues" title="Permalink to this headline">¶</a></h1>
-<p>Using the <a class="reference external" href="https://developer.github.com/v4/">GitHub GraphQL API</a> to analyze
-the issue tracker for open source projects.</p>
-<div class="section" id="summary">
-<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="most-cross-referenced-issues">
-<h3>Most cross-referenced issues<a class="headerlink" href="#most-cross-referenced-issues" title="Permalink to this headline">¶</a></h3>
-<p>The <span class="pasted-text">25</span> most cross-referenced issues.
-Note this includes all cross-references including those from other
-repositories.
-See <a class="reference internal" href="content/edge_counting.html"><span class="doc">Counting cross-references</span></a> for details.</p>
-<div class="toggle admonition">
-<p class="admonition-title">Click to show/hide table</p>
-<table class="colwidths-auto table">
-<thead>
-<tr class="row-odd"><th class="text-align:center head"><p>Iss. #</p></th>
-<th class="text-align:left head"><p>xrefs</p></th>
-<th class="text-align:left head"><p>Issue</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td class="text-align:center"><p>7370</p></td>
-<td class="text-align:left"><p>32</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/7370">Type hinting / annotation (PEP 484) for ndarray, dtype, and ufunc</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>15986</p></td>
-<td class="text-align:left"><p>22</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/15986">Chain exceptions where appropriate</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>11521</p></td>
-<td class="text-align:left"><p>20</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/11521">DEP: deprecate python code with DeprecationWarning (tracking issue)</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>5353</p></td>
-<td class="text-align:left"><p>18</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/5353">object array construction should require explicitly specifying dtype=object</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>9464</p></td>
-<td class="text-align:left"><p>15</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/9464">Default int type is platform dependent</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>10161</p></td>
-<td class="text-align:left"><p>15</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/10161">numpy.isclose vs math.isclose</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>2776</p></td>
-<td class="text-align:left"><p>14</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/2776">ndarray should derive from collections.abc.Sequence?</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>5745</p></td>
-<td class="text-align:left"><p>14</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/5745">uint64 converted silently to float64 when adding an int</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>13114</p></td>
-<td class="text-align:left"><p>14</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/13114">DOC: missing references when using -n in sphinx-build</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>5312</p></td>
-<td class="text-align:left"><p>13</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/5312">Use an aligned allocator for NumPy?</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>9875</p></td>
-<td class="text-align:left"><p>13</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/9875">BUG: truthiness of strings is arbitrary, context-dependent, and inconsistent</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>641</p></td>
-<td class="text-align:left"><p>12</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/641">python3: regression for unique on dtype=object arrays with varying items types (Trac #2188)</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>8325</p></td>
-<td class="text-align:left"><p>12</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/8325">np.nan incorrectly casted into datetime on powerpc, leading to failing tests of pandas</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>8892</p></td>
-<td class="text-align:left"><p>12</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/8892">MAINT: post <strong>array_ufunc</strong> merger to-do list</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>9650</p></td>
-<td class="text-align:left"><p>12</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/9650">Random seed is replication across child processes</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>10736</p></td>
-<td class="text-align:left"><p>12</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/10736">Restructure percentile methods</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>8720</p></td>
-<td class="text-align:left"><p>11</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/8720">ENH: broadcast lstsq</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>8987</p></td>
-<td class="text-align:left"><p>11</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/8987">BUG: Integer overflow warning applies to scalars but not arrays</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>10322</p></td>
-<td class="text-align:left"><p>11</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/10322">BUG: Inconsistent type resolution for 0d arrays</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>13105</p></td>
-<td class="text-align:left"><p>11</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/13105">ENH: Provide a way to disable flattening of 0d arrays to scalars</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>4983</p></td>
-<td class="text-align:left"><p>10</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/4983">datetime64 arrays don’t support buffer protocol</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>5543</p></td>
-<td class="text-align:left"><p>10</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/5543">ndarray should offer <strong>format</strong> that can adjust precision</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>7753</p></td>
-<td class="text-align:left"><p>10</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/7753">Suggestion: Sliding Window Function</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>14012</p></td>
-<td class="text-align:left"><p>10</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/14012">Unittest: RuntimeError: implement_array_function method already has a docstring</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>17012</p></td>
-<td class="text-align:left"><p>10</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/17012"> List of possible bugs found by automated code analysis</a></p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div class="section" id="most-cross-referenced-issues-intra-repository">
-<h3>Most cross-referenced issues (intra-repository)<a class="headerlink" href="#most-cross-referenced-issues-intra-repository" title="Permalink to this headline">¶</a></h3>
-<p>The <span class="pasted-text">25</span> most cross-referenced issues, limited to references
-originating in the same repository. See <a class="reference internal" href="content/basic_graph_analysis.html#sec-degree"><span class="std std-ref">Number of cross-references, redux</span></a> for details.</p>
-<div class="toggle admonition">
-<p class="admonition-title">Click to show/hide table</p>
-<table class="colwidths-auto table">
-<thead>
-<tr class="row-odd"><th class="text-align:center head"><p>Iss. #</p></th>
-<th class="text-align:left head"><p>xrefs</p></th>
-<th class="text-align:left head"><p>Issue</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td class="text-align:center"><p>12525</p></td>
-<td class="text-align:left"><p>5</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/12525">Broken comparators for uint64-dtype</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>15986</p></td>
-<td class="text-align:left"><p>22</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/15986">Chain exceptions where appropriate</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>11521</p></td>
-<td class="text-align:left"><p>20</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/11521">DEP: deprecate python code with DeprecationWarning (tracking issue)</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>5353</p></td>
-<td class="text-align:left"><p>18</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/5353">object array construction should require explicitly specifying dtype=object</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>13114</p></td>
-<td class="text-align:left"><p>14</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/13114">DOC: missing references when using -n in sphinx-build</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>8892</p></td>
-<td class="text-align:left"><p>12</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/8892">MAINT: post <strong>array_ufunc</strong> merger to-do list</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>13105</p></td>
-<td class="text-align:left"><p>11</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/13105">ENH: Provide a way to disable flattening of 0d arrays to scalars</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>5745</p></td>
-<td class="text-align:left"><p>14</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/5745">uint64 converted silently to float64 when adding an int</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>9875</p></td>
-<td class="text-align:left"><p>13</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/9875">BUG: truthiness of strings is arbitrary, context-dependent, and inconsistent</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>10322</p></td>
-<td class="text-align:left"><p>11</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/10322">BUG: Inconsistent type resolution for 0d arrays</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>10736</p></td>
-<td class="text-align:left"><p>12</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/10736">Restructure percentile methods</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>8720</p></td>
-<td class="text-align:left"><p>11</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/8720">ENH: broadcast lstsq</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>17012</p></td>
-<td class="text-align:left"><p>10</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/17012"> List of possible bugs found by automated code analysis</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>3217</p></td>
-<td class="text-align:left"><p>8</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/3217">Merge generalized linear algebra routines into numpy.linalg</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>8987</p></td>
-<td class="text-align:left"><p>11</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/8987">BUG: Integer overflow warning applies to scalars but not arrays</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>10106</p></td>
-<td class="text-align:left"><p>6</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/10106">DOC: Add missing documentation for top-level functions</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>5668</p></td>
-<td class="text-align:left"><p>2</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/5668">shift operator does not work with numpy arrays with dtype=uint64</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>7370</p></td>
-<td class="text-align:left"><p>32</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/7370">Type hinting / annotation (PEP 484) for ndarray, dtype, and ufunc</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>7588</p></td>
-<td class="text-align:left"><p>5</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/7588">np.ma.masked is not a scalar</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>10614</p></td>
-<td class="text-align:left"><p>2</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/10614">The description of the <code class="docutils literal notranslate"><span class="pre">dtype</span></code> parameter in <code class="docutils literal notranslate"><span class="pre">numpy.array</span></code> docstring</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>12518</p></td>
-<td class="text-align:left"><p>7</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/12518">What should be the calling convention for ufunc inner loop signatures?</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>14142</p></td>
-<td class="text-align:left"><p>8</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/14142">Failure to load .npy file with structured dtype and metadata</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>14778</p></td>
-<td class="text-align:left"><p>7</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/14778">API: provide examples of use of numpy random API via user stories</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>15306</p></td>
-<td class="text-align:left"><p>8</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/15306">Python 2 code clean up tracker</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>4352</p></td>
-<td class="text-align:left"><p>9</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/4352">numpy any and all applied to object arrays should return booleans.</a></p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div class="section" id="most-central-issues">
-<h3>Most <em>central</em> issues<a class="headerlink" href="#most-central-issues" title="Permalink to this headline">¶</a></h3>
-<p>A listing of issues sorted by <em>betweenness centrality</em><a class="footnote-reference brackets" href="#centrality" id="id1">1</a>.
-See <a class="reference internal" href="content/basic_graph_analysis.html#sec-centrality"><span class="std std-ref">Centrality</span></a> for details.</p>
-<div class="toggle admonition">
-<p class="admonition-title">Click to show/hide table</p>
-<table class="colwidths-auto table">
-<thead>
-<tr class="row-odd"><th class="text-align:center head"><p>Iss. #</p></th>
-<th class="text-align:left head"><p>xrefs</p></th>
-<th class="text-align:left head"><p>Issue</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td class="text-align:center"><p>5353</p></td>
-<td class="text-align:left"><p>18</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/5353">object array construction should require explicitly specifying dtype=object</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>10614</p></td>
-<td class="text-align:left"><p>2</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/10614">The description of the <code class="docutils literal notranslate"><span class="pre">dtype</span></code> parameter in <code class="docutils literal notranslate"><span class="pre">numpy.array</span></code> docstring</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>12525</p></td>
-<td class="text-align:left"><p>5</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/12525">Broken comparators for uint64-dtype</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>7267</p></td>
-<td class="text-align:left"><p>5</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/7267">can’t index string- and unicode- numpy-scalars with an empty tuple</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>9444</p></td>
-<td class="text-align:left"><p>6</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/9444"><code class="docutils literal notranslate"><span class="pre">np.errstate</span></code> is not asyncio-safe</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>8720</p></td>
-<td class="text-align:left"><p>11</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/8720">ENH: broadcast lstsq</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>10322</p></td>
-<td class="text-align:left"><p>11</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/10322">BUG: Inconsistent type resolution for 0d arrays</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>5745</p></td>
-<td class="text-align:left"><p>14</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/5745">uint64 converted silently to float64 when adding an int</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>7588</p></td>
-<td class="text-align:left"><p>5</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/7588">np.ma.masked is not a scalar</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>7370</p></td>
-<td class="text-align:left"><p>32</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/7370">Type hinting / annotation (PEP 484) for ndarray, dtype, and ufunc</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>10161</p></td>
-<td class="text-align:left"><p>15</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/10161">numpy.isclose vs math.isclose</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>10179</p></td>
-<td class="text-align:left"><p>1</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/10179"><strong>contains</strong>: erroneous broadcasting when operand is a list</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>9530</p></td>
-<td class="text-align:left"><p>4</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/9530">Feature request: <code class="docutils literal notranslate"><span class="pre">T</span></code> method for transposition applying to 1D vectors</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>15959</p></td>
-<td class="text-align:left"><p>5</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/15959">isclose behavior on non-finite complex values seems incorrect</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>3217</p></td>
-<td class="text-align:left"><p>8</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/3217">Merge generalized linear algebra routines into numpy.linalg</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>10374</p></td>
-<td class="text-align:left"><p>5</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/10374">BUG: np.reciprocal on integers uses C division, not true division</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>10144</p></td>
-<td class="text-align:left"><p>2</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/10144">numpy.array gives unexpected results for generator expressions</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>15981</p></td>
-<td class="text-align:left"><p>3</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/15981">NumPy should warn (eventually raise an error?) on comparisons between complex numbers</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>10218</p></td>
-<td class="text-align:left"><p>2</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/10218">Comparison of arrays with iterable values fails and raises wrong warning</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>15625</p></td>
-<td class="text-align:left"><p>0</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/15625">Construct ndarray/array from iterator/generator</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>8811</p></td>
-<td class="text-align:left"><p>4</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/8811">Feature request: signal broadcasting is OK over core dimension</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>8851</p></td>
-<td class="text-align:left"><p>3</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/8851">BUG: incorrect equality of np.int64 and np.uint64</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>16287</p></td>
-<td class="text-align:left"><p>3</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/16287">Default dtype for integers across the int64 upper limit is float</a></p></td>
-</tr>
-<tr class="row-odd"><td class="text-align:center"><p>7449</p></td>
-<td class="text-align:left"><p>4</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/7449">NumPy’s implementation of scalar integer ** integer has very weird casting</a></p></td>
-</tr>
-<tr class="row-even"><td class="text-align:center"><p>6555</p></td>
-<td class="text-align:left"><p>4</p></td>
-<td class="text-align:left"><p><a class="reference external" href="https://github.com/numpy/numpy/issues/6555">any/all functions do not work with generators</a></p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div class="section" id="details">
-<h2>Details<a class="headerlink" href="#details" title="Permalink to this headline">¶</a></h2>
+  <section class="tex2jax_ignore mathjax_ignore" id="scientific-python-devstats">
+<h1>Scientific Python Devstats<a class="headerlink" href="#scientific-python-devstats" title="Permalink to this headline">¶</a></h1>
+<p>This website tracks the recent development history of the scientific Python
+ecosystem.</p>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="content/edge_counting.html">Counting cross-references</a></li>
-<li class="toctree-l1"><a class="reference internal" href="content/basic_graph_analysis.html">Basic graph analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="numpy_issues.html">NumPy Monthly Report</a></li>
 </ul>
 </div>
-<hr class="docutils" />
-<dl class="footnote brackets">
-<dt class="label" id="centrality"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
-<dd><p>https://en.wikipedia.org/wiki/Betweenness_centrality</p>
-</dd>
-</dl>
-</div>
-</div>
+</section>
 
 
               </div>
               
               
-              <div class='prev-next-bottom'>
-                
-    <a class='right-next' id="next-link" href="content/edge_counting.html" title="next page">Counting cross-references</a>
-
-              </div>
+              <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='right-next' id="next-link" href="numpy_issues.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">NumPy Monthly Report</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
               
           </main>
           
 
       </div>
     </div>
-
-    <script src="_static/js/index.js"></script>
-    <footer class="footer mt-5 mt-md-0">
+  
+    <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+  <footer class="footer mt-5 mt-md-0">
   <div class="container">
-    <p>
-          &copy; Copyright 2020, rossbar.<br/>
-        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.4.<br/>
-    </p>
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2022, scientific Python community.<br>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.4.0.<br>
+</p>
+    </div>
+    
   </div>
 </footer>
   </body>
