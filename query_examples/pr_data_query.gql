@@ -1,5 +1,5 @@
-query {                                                                         
-  repository(owner:"_REPO_OWNER_", name:"_REPO_NAME_") {                                     
+query {
+  repository(owner:"_REPO_OWNER_", name:"_REPO_NAME_") {
     pullRequests(first:100) {
       totalCount
       edges {
@@ -9,6 +9,8 @@ query {
           state
           title
           createdAt
+          baseRefName
+          mergeable
           author{
             login
           }
@@ -18,6 +20,9 @@ query {
           }
           mergedAt
           reviews(states:APPROVED){
+            totalCount
+          }
+          participants(first:100){
             totalCount
           }
         }
