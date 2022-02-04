@@ -1,7 +1,7 @@
 Scientific Python Devstats
 ==========================
 
-This website tracks the recent development history of the scientific Python
+This website tracks the recent development history of the Scientific Python
 ecosystem.
 
 ```{toctree}
@@ -9,5 +9,11 @@ ecosystem.
 maxdepth: 1
 ---
 
-numpy_issues
+_generated/numpy
+_generated/scipy
+_generated/matplotlib
+_generated/pandas
+_generated/scikit-learn
+_generated/scikit-image
+_generated/networkx
 ```

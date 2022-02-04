@@ -1,0 +1,940 @@
+{
+  "_generated/matplotlib": {
+    "matplotlib_num_new_issues_responded": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "matplotlib_num_new_issues_responded",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'1931 (90%)'"
+      }
+    },
+    "matplotlib_num_flyby": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "matplotlib_num_flyby",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'740 (68%)'"
+      }
+    },
+    "matplotlib_num_new_issues": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "matplotlib_num_new_issues",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "2153"
+      }
+    },
+    "matplotlib_median_response_time": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "matplotlib_median_response_time",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'2'"
+      }
+    },
+    "matplotlib_new_issue_median_lifetime": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "matplotlib_new_issue_median_lifetime",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'36 hours'"
+      }
+    },
+    "matplotlib_num_unique_authors_of_merged_prs": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "matplotlib_num_unique_authors_of_merged_prs",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "1089"
+      }
+    },
+    "matplotlib_num_new_issues_closed": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "matplotlib_num_new_issues_closed",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'1536 (71%)'"
+      }
+    },
+    "matplotlib_num_merged_prs_with_known_authors": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "matplotlib_num_merged_prs_with_known_authors",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "9054"
+      }
+    },
+    "matplotlib_pony_factor": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "matplotlib_pony_factor",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "3"
+      }
+    },
+    "matplotlib_new_issues_at_least_1_day_old": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "matplotlib_new_issues_at_least_1_day_old",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "2152"
+      }
+    },
+    "matplotlib_query_date": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "matplotlib_query_date",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'2020-01-01'"
+      }
+    }
+  },
+  "_generated/networkx": {
+    "networkx_median_response_time": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "networkx_median_response_time",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'5'"
+      }
+    },
+    "networkx_pony_factor": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "networkx_pony_factor",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "6"
+      }
+    },
+    "networkx_num_flyby": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "networkx_num_flyby",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'382 (73%)'"
+      }
+    },
+    "networkx_num_unique_authors_of_merged_prs": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "networkx_num_unique_authors_of_merged_prs",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "524"
+      }
+    },
+    "networkx_num_new_issues_closed": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "networkx_num_new_issues_closed",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'393 (73%)'"
+      }
+    },
+    "networkx_query_date": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "networkx_query_date",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'2020-01-01'"
+      }
+    },
+    "networkx_num_new_issues": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "networkx_num_new_issues",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "538"
+      }
+    },
+    "networkx_new_issues_at_least_1_day_old": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "networkx_new_issues_at_least_1_day_old",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "538"
+      }
+    },
+    "networkx_new_issue_median_lifetime": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "networkx_new_issue_median_lifetime",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'207 hours'"
+      }
+    },
+    "networkx_num_merged_prs_with_known_authors": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "networkx_num_merged_prs_with_known_authors",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "1895"
+      }
+    },
+    "networkx_num_new_issues_responded": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "networkx_num_new_issues_responded",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'476 (88%)'"
+      }
+    }
+  },
+  "_generated/numpy": {
+    "numpy_num_merged_prs_with_known_authors": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "numpy_num_merged_prs_with_known_authors",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "6981"
+      }
+    },
+    "numpy_new_issue_median_lifetime": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "numpy_new_issue_median_lifetime",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'59 hours'"
+      }
+    },
+    "numpy_num_unique_authors_of_merged_prs": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "numpy_num_unique_authors_of_merged_prs",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "1230"
+      }
+    },
+    "numpy_pony_factor": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "numpy_pony_factor",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "12"
+      }
+    },
+    "numpy_query_date": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "numpy_query_date",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'2020-01-01'"
+      }
+    },
+    "numpy_num_new_issues": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "numpy_num_new_issues",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "2331"
+      }
+    },
+    "numpy_num_new_issues_responded": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "numpy_num_new_issues_responded",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'2130 (91%)'"
+      }
+    },
+    "numpy_median_response_time": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "numpy_median_response_time",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'2'"
+      }
+    },
+    "numpy_new_issues_at_least_1_day_old": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "numpy_new_issues_at_least_1_day_old",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "2330"
+      }
+    },
+    "numpy_num_flyby": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "numpy_num_flyby",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'840 (68%)'"
+      }
+    },
+    "numpy_num_new_issues_closed": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "numpy_num_new_issues_closed",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'1582 (68%)'"
+      }
+    }
+  },
+  "_generated/pandas": {
+    "pandas_num_unique_authors_of_merged_prs": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "pandas_num_unique_authors_of_merged_prs",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "2352"
+      }
+    },
+    "pandas_num_new_issues_responded": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "pandas_num_new_issues_responded",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'4631 (87%)'"
+      }
+    },
+    "pandas_query_date": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "pandas_query_date",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'2020-01-01'"
+      }
+    },
+    "pandas_num_flyby": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "pandas_num_flyby",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'1477 (63%)'"
+      }
+    },
+    "pandas_pony_factor": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "pandas_pony_factor",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "8"
+      }
+    },
+    "pandas_num_new_issues_closed": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "pandas_num_new_issues_closed",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'3821 (72%)'"
+      }
+    },
+    "pandas_new_issue_median_lifetime": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "pandas_new_issue_median_lifetime",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'155 hours'"
+      }
+    },
+    "pandas_new_issues_at_least_1_day_old": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "pandas_new_issues_at_least_1_day_old",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "5301"
+      }
+    },
+    "pandas_median_response_time": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "pandas_median_response_time",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'4'"
+      }
+    },
+    "pandas_num_new_issues": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "pandas_num_new_issues",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "5317"
+      }
+    },
+    "pandas_num_merged_prs_with_known_authors": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "pandas_num_merged_prs_with_known_authors",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "17135"
+      }
+    }
+  },
+  "_generated/scikit-image": {
+    "scikit-image_query_date": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-image_query_date",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'2020-01-01'"
+      }
+    },
+    "scikit-image_num_new_issues": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-image_num_new_issues",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "572"
+      }
+    },
+    "scikit-image_num_new_issues_responded": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-image_num_new_issues_responded",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'514 (90%)'"
+      }
+    },
+    "scikit-image_num_merged_prs_with_known_authors": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-image_num_merged_prs_with_known_authors",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "2738"
+      }
+    },
+    "scikit-image_num_unique_authors_of_merged_prs": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-image_num_unique_authors_of_merged_prs",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "468"
+      }
+    },
+    "scikit-image_new_issues_at_least_1_day_old": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-image_new_issues_at_least_1_day_old",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "571"
+      }
+    },
+    "scikit-image_pony_factor": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-image_pony_factor",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "7"
+      }
+    },
+    "scikit-image_num_new_issues_closed": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-image_num_new_issues_closed",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'500 (87%)'"
+      }
+    },
+    "scikit-image_num_flyby": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-image_num_flyby",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'308 (66%)'"
+      }
+    },
+    "scikit-image_new_issue_median_lifetime": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-image_new_issue_median_lifetime",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'269 hours'"
+      }
+    },
+    "scikit-image_median_response_time": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-image_median_response_time",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'5'"
+      }
+    }
+  },
+  "_generated/scikit-learn": {
+    "scikit-learn_median_response_time": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-learn_median_response_time",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'6'"
+      }
+    },
+    "scikit-learn_query_date": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-learn_query_date",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'2020-01-01'"
+      }
+    },
+    "scikit-learn_num_new_issues_responded": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-learn_num_new_issues_responded",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'1980 (91%)'"
+      }
+    },
+    "scikit-learn_new_issue_median_lifetime": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-learn_new_issue_median_lifetime",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'69 hours'"
+      }
+    },
+    "scikit-learn_num_unique_authors_of_merged_prs": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-learn_num_unique_authors_of_merged_prs",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "2146"
+      }
+    },
+    "scikit-learn_num_new_issues": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-learn_num_new_issues",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "2169"
+      }
+    },
+    "scikit-learn_num_new_issues_closed": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-learn_num_new_issues_closed",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'1478 (68%)'"
+      }
+    },
+    "scikit-learn_num_merged_prs_with_known_authors": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-learn_num_merged_prs_with_known_authors",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "8337"
+      }
+    },
+    "scikit-learn_pony_factor": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-learn_pony_factor",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "36"
+      }
+    },
+    "scikit-learn_num_flyby": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-learn_num_flyby",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'1413 (66%)'"
+      }
+    },
+    "scikit-learn_new_issues_at_least_1_day_old": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scikit-learn_new_issues_at_least_1_day_old",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "2168"
+      }
+    }
+  },
+  "_generated/scipy": {
+    "scipy_new_issue_median_lifetime": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scipy_new_issue_median_lifetime",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'92 hours'"
+      }
+    },
+    "scipy_new_issues_at_least_1_day_old": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scipy_new_issues_at_least_1_day_old",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "1899"
+      }
+    },
+    "scipy_median_response_time": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scipy_median_response_time",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'3'"
+      }
+    },
+    "scipy_num_new_issues_closed": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scipy_num_new_issues_closed",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'1185 (62%)'"
+      }
+    },
+    "scipy_num_merged_prs_with_known_authors": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scipy_num_merged_prs_with_known_authors",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "5818"
+      }
+    },
+    "scipy_query_date": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scipy_query_date",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'2020-01-01'"
+      }
+    },
+    "scipy_num_new_issues_responded": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scipy_num_new_issues_responded",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'1619 (85%)'"
+      }
+    },
+    "scipy_pony_factor": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scipy_pony_factor",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "15"
+      }
+    },
+    "scipy_num_new_issues": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scipy_num_new_issues",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "1901"
+      }
+    },
+    "scipy_num_flyby": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scipy_num_flyby",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "'675 (65%)'"
+      }
+    },
+    "scipy_num_unique_authors_of_merged_prs": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "scipy_num_unique_authors_of_merged_prs",
+          "mime_prefix": "application/papermill.record/"
+        }
+      },
+      "data": {
+        "application/papermill.record/text/plain": "1036"
+      }
+    }
+  }
+}
