@@ -345,6 +345,10 @@ axes[0].set_ylabel(f'# Merged PRs / {binsize} interval')
 axes[1].set_ylim(axes[0].get_ylim())
 fig.autofmt_xdate()
 plt.show()
+
+# For thumbnail
+fig.tight_layout()
+glue("{{ project }}_fig_num_prs_over_time", fig)
 ```
 
 ### Mergeability of Open PRs
