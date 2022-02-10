@@ -67,6 +67,7 @@ ecosystem.
 ```{toctree}
 :maxdepth: 1
 :hidden: true
+:glob:
 
 _generated/*
 ```
